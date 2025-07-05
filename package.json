@@ -1,0 +1,22 @@
+{
+  "name": "acciojob-landing-page",
+  "version": "1.0.0",
+  "description": "AccioJob landing page - Tech career platform",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -c-1",
+    "start": "npx http-server . -p 3000 -c-1",
+    "build": "echo 'This is a static HTML project, no build step needed'"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "bootstrap",
+    "landing-page"
+  ],
+  "author": "AccioJob Student",
+  "license": "MIT"
+}
