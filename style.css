@@ -316,19 +316,26 @@ h2 {
   gap: 2rem;
 }
 .px {
-  background-color: #e0f3ff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
   height: fit-content;
   width: fit-content;
-  padding-inline: 10px;
-  border-radius: 10px;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
 .py {
-  background: #ffeed8;
+  background: linear-gradient(135deg, #ffa726 0%, #ff9800 100%);
+  color: white;
   height: fit-content;
   width: fit-content;
-  padding-inline: 10px;
-  border-radius: 10px;
-  color: #965400;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(255, 167, 38, 0.3);
 }
 .un {
   color: #565656;
@@ -361,13 +368,19 @@ h2 {
 }
 .box-1 {
   display: flex;
-  gap: 4rem;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .boxx {
-  padding-inline: 20px !important;
+  padding: 12px 24px !important;
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+.boxx:hover {
+  transform: translateY(-2px) !important;
 }
 .companyp {
   text-align: center;
