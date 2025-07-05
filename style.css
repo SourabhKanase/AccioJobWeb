@@ -10,10 +10,10 @@
   top: 0;
 }
 input:focus {
-    outline: none; 
+  outline: none;
 }
-select:focus{
-    outline: none;
+select:focus {
+  outline: none;
 }
 .navdiv {
   height: 60px;
@@ -202,7 +202,7 @@ h2 {
   background-color: white;
   border-radius: 10px;
   padding: 13px;
-  transition:transform 3s linear;
+  transition: transform 3s linear;
 }
 .abc {
   display: flex;
@@ -393,7 +393,7 @@ h2 {
   justify-content: center;
 }
 .footerh3 {
-    margin-top: 100px;
+  margin-top: 100px;
   background: linear-gradient(277deg, #992fed 0%, #2f80ed 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -420,17 +420,17 @@ h2 {
     display: flex;
     flex-direction: column;
   }
-  .footersection{
-    display:flex;
+  .footersection {
+    display: flex;
     flex-direction: column;
   }
-  .carart{
-    display:flex;
+  .carart {
+    display: flex;
     flex-direction: column;
     width: 100vw;
   }
-  .navdiv{
-    display:flex;
+  .navdiv {
+    display: flex;
     flex-direction: column;
   }
 }
